@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+h1,
+p {
+  @apply text-[#31424F];
+}
+.colorstxt{
+  @apply !text-[#5B6582];
+}
+.v-btn {
+  @apply !normal-case !text-[#5B6582];
+}
+.pTag {
+  @apply !text-sm pb-6 !text-gray-500;
+}
+.headingCard {
+  @apply text-xl font-semibold pl-0;
+}
+.titleCard {
+  @apply text-lg font-semibold pb-5;
+}
+.mainbar .v-list-item__prepend {
+  @apply !text-[9px] ml-[12px];
+}
+.custom-list-item .v-list-item__prepend {
+  @apply text-base mr-[-20px];
+}
+.circle .v-list-item__prepend {
+  @apply !text-base;
+}
+.base {
+  @apply font-bold text-slate-900;
+}
+.base .v-list-item__prepend {
+  @apply text-xl;
+}
+.add .v-btn__prepend {
+  @apply text-xl;
+}
+.numb {
+  @apply bg-slate-200 py-[1px] px-1 text-sm rounded-full;
+}
+.doingAvat .v-list-item__append {
+  @apply text-xs;
+}
+.Declined {
+  @apply !text-[#FD6060] !font-bold !px-5 mt-3;
+}
+.Approved {
+  @apply !text-[#00783E] !font-bold !px-5 mt-3;
+}
+.Pending {
+  @apply !text-[#F7D154] !font-bold !px-5 mt-3;
+}
+.v-tab {
+  @apply !mr-8 !px-0;
+}
+
+
+
+
+
+
+
+
